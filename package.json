@@ -1,0 +1,14 @@
+{
+  "name": "book-origin",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "flasco <flasco@163.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "ts-node src/index"
+  },
+  "devDependencies": {
+    "ts-node": "^10.2.1",
+    "typescript": "^4.4.3"
+  }
+}
