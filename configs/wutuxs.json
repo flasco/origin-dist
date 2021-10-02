@@ -1,9 +1,9 @@
 {
-  "site": "https://www.wutuxs.com",
+  "site": "http://www.wutuxs.net",
   "charset": "gbk",
   "search": {
     "method": "post",
-    "pattern": "https://www.wutuxs.com/modules/article/search.php?searchkey=${key}",
+    "pattern": "http://www.wutuxs.net/modules/article/search.php?searchkey=${key}",
     "bookList": "id.content@tag.tbody@tag.tr",
     "bookName": "tag.td.0@tag.a@text",
     "bookUrl": "tag.td.0@tag.a@href",
