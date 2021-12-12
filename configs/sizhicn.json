@@ -1,15 +1,6 @@
 {
   "site": "https://www.shuquge.com",
   "charset": "utf-8",
-  "search": {
-    "method": "post",
-    "pattern": "https://www.shuquge.com/search.php?searchkey=${key}",
-    "bookList": "class.bookbox",
-    "bookName": "class.bookname@text",
-    "bookUrl": "class.bookname@tag.a@href",
-    "lastChapter": "class.update@tag.a@text",
-    "author": "class.author.0@text##作者："
-  },
   "list": {
     "chapters": "class.listmain@tag.dd",
     "title": "tag.a@text",
