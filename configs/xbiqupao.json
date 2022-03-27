@@ -1,0 +1,29 @@
+{
+  "site": "https://www.xbiqupao.com",
+  "charset": "UTF-8",
+  "search": {
+    "method": "get",
+    "pattern": "https://www.xbiqupao.com/searchbook.php?search_key=${key}",
+    "bookList": "class.nr@tag.li",
+    "bookUrl": "class.name@tag.a@href",
+    "bookName": "class.name@tag.a@text",
+    "latestChapter": "tag.dt@tag.a@text",
+    "author": "class.name@tag.span.1@text##作者："
+  },
+  "detail": {
+    "latest": "tag.meta[property='og:novel:latest_chapter_name']@content",
+    "description": "tag.meta[property='og:description']@content",
+    "imageUrl": "tag.meta[property='og:image']@content",
+    "author": "tag.meta[property='og:novel:author']@content",
+    "name": "tag.meta[property='og:novel:book_name']@content"
+  },
+  "list": {
+    "chapters": "id.list@tag.a",
+    "title": "text",
+    "href": "href"
+  },
+  "chapter": {
+    "title": "tag.h1@text",
+    "content": "id.content@text##亲,点击进.*?广告清新阅读！"
+  }
+}
