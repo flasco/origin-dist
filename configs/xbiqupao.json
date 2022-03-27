@@ -24,6 +24,6 @@
   },
   "chapter": {
     "title": "tag.h1@text",
-    "content": "id.content@text##亲,点击进.*?广告清新阅读！"
+    "content": "id.content@tag.p@text##亲,点击进.*?广告清新阅读！"
   }
 }
