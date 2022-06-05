@@ -1,0 +1,32 @@
+{
+  "site": "https://www.86zw.co",
+  "charset": "utf-8",
+  "search": {
+    "method": "post",
+    "pattern": "https://www.86zw.co/case.php?m=search&key=${key}",
+    "customHeader": "{\"cookie\": \"8cff2621b1017a35cdb0f82396320686=1\"}",
+    "bookList": "class.l@tag.li",
+    "bookName": "tag.a.0@text",
+    "bookUrl": "tag.a.0@href",
+    "latestChapter": "tag.a.1@text",
+    "author": "class.s4@text"
+  },
+  "list": {
+    "chapters": "id.list@tag.dd",
+    "title": "tag.a@text",
+    "href": "tag.a@href"
+  },
+  "detail": {
+    "latest": "tag.meta[property='og:novel:latest_chapter_name']@content",
+    "description": "tag.meta[property='og:description']@content",
+    "imageUrl": "tag.meta[property='og:image']@content",
+    "author": "tag.meta[property='og:novel:author']@content",
+    "name": "tag.meta[property='og:novel:book_name']@content"
+  },
+  "chapter": {
+    "title": "tag.h1@text",
+    "content": "id.content@ownText",
+    "nextUrl": "class.bottem2@tag.a.3@href",
+    "prevUrl": "class.bottem2@tag.a.1@href"
+  }
+}
